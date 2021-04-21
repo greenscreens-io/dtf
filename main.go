@@ -27,10 +27,7 @@ func print() {
 
 func main() {
 
-	/*
-	lib.TRACE = true
-	test3()
-	*/
+	// lib.TRACE = true
 
 	i := doMain()
 	os.Exit(i)
