@@ -91,8 +91,8 @@ func FromGS(opt *Options) error {
 	data.Path = opt.Path
 	data.FileName = file
 
-	// call service.file/download to get the file ( opt, taskID, fileID)
-	err = caller.Receive(data, respExp.Code, respExp.Msg)
+	// call service.file/download to get the file ( opt, taskID, fileID, fileMode)
+	err = caller.Receive(data, respExp.Code, respExp.Msg, opt.Mode)
 	if err != nil {
 		return err
 	}
