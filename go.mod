@@ -2,8 +2,6 @@ module greenscreens-io/dtf
 
 go 1.17
 
-replace greenscreens-io/winapi => Z:\projects\goworkspace\src\greenscreens-io\winapi
-
 require (
 	github.com/denisbrodbeck/machineid v1.0.1
 	github.com/dustin/go-humanize v1.0.0
