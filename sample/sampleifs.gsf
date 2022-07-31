@@ -1,0 +1,6 @@
+{
+  "url": "http://localhost",
+  "key": "IBMSERVER1",
+  "ifs" : "/temp/data.txt",
+  "path" : "c:\\projects\\dtf\\data.txt"
+}

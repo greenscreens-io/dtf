@@ -1,14 +1,16 @@
-package lib
+package services
 
 import (
 	"fmt"
 	"strings"
+
 	"github.com/dustin/go-humanize"
 )
+
 // HTTPCounter counts the number of bytes written to it. It implements to the io.Writer interface
 // and we can pass this into io.TeeReader() which will report progress on each write cycle.
 type HTTPCounter struct {
-	Total uint64
+	Total      uint64
 	transfered uint64
 }
 
