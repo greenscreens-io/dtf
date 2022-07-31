@@ -1,3 +1,5 @@
+![GitHub](https://img.shields.io/github/license/greenscreens-io/dtf?style=plastic)
+
 __DTF - Data Transfer__
 
 Client module to call service.file and service.transfer Green Screens Services for text data file imports/exports.
